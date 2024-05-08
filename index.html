@@ -1,0 +1,176 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/OfJbUCkcCQJ
+-->
+
+<header class="w-full bg-gray-100 py-12 md:py-20 dark:bg-gray-900">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="mx-auto max-w-3xl text-center">
+      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Welcome to My Portfolio</h1>
+      <p class="mt-4 text-lg text-gray-500 dark:text-gray-400">
+        Explore my latest projects and get in touch to collaborate.
+      </p>
+      <div class="mt-8">
+        <a
+          class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-6 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+          href="#"
+        >
+          Contact Me
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="w-full py-12 md:py-20">
+    <div class="container mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-12 md:px-6">
+      <div class="flex items-center justify-center">
+        <img
+          src="/placeholder.svg"
+          width="400"
+          height="400"
+          alt="About"
+          class="aspect-square w-full max-w-[300px] overflow-hidden rounded-xl object-cover"
+        />
+      </div>
+      <div class="space-y-4">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">About Me</h2>
+        <p class="text-gray-500 dark:text-gray-400">
+          Hi, I'm a passionate web developer with a strong background in building modern, responsive, and
+          user-friendly websites. I'm constantly learning and exploring new technologies to deliver high-quality
+          solutions.
+        </p>
+        <p class="text-gray-500 dark:text-gray-400">
+          In my free time, I enjoy experimenting with new design ideas, contributing to open-source projects, and
+          staying up-to-date with the latest industry trends.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="w-full bg-gray-100 py-12 md:py-20 dark:bg-gray-900">
+    <div class="container mx-auto px-4 md:px-6">
+      <div class="space-y-4 text-center">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">My Projects</h2>
+        <p class="text-gray-500 dark:text-gray-400">
+          Check out some of my recent projects and the technologies I used.
+        </p>
+      </div>
+      <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:scale-105 hover:shadow-md dark:border-gray-800 dark:bg-gray-950">
+          <img
+            src="/placeholder.svg"
+            width="600"
+            height="400"
+            alt="Project 1"
+            class="aspect-[3/2] w-full rounded-t-xl object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Project 1</h3>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              A modern and responsive website built with Next.js and Tailwind CSS.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:scale-105 hover:shadow-md dark:border-gray-800 dark:bg-gray-950">
+          <img
+            src="/placeholder.svg"
+            width="600"
+            height="400"
+            alt="Project 2"
+            class="aspect-[3/2] w-full rounded-t-xl object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Project 2</h3>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              A web application built with React, Firebase, and Material-UI.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:scale-105 hover:shadow-md dark:border-gray-800 dark:bg-gray-950">
+          <img
+            src="/placeholder.svg"
+            width="600"
+            height="400"
+            alt="Project 3"
+            class="aspect-[3/2] w-full rounded-t-xl object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Project 3</h3>
+            <p class="mt-2 text-gray-500 dark:text-gray-400">
+              A landing page built with Gatsby and Styled Components.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="w-full py-12 md:py-20">
+    <div class="container mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-2 md:gap-12 md:px-6">
+      <div class="space-y-4">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl">Get in Touch</h2>
+        <p class="text-gray-500 dark:text-gray-400">
+          Have a project in mind or just want to say hello? Fill out the form below, and I'll get back to you as
+          soon as possible.
+        </p>
+      </div>
+      <form class="space-y-4">
+        <div class="space-y-2">
+          <label
+            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+            for="name"
+          >
+            Name
+          </label>
+          <input
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id="name"
+            placeholder="John Doe"
+            required=""
+            type="text"
+          />
+        </div>
+        <div class="space-y-2">
+          <label
+            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id="email"
+            placeholder="john@example.com"
+            required=""
+            type="email"
+          />
+        </div>
+        <div class="space-y-2">
+          <label
+            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+            for="message"
+          >
+            Message
+          </label>
+          <textarea
+            class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+            id="message"
+            placeholder="How can I help you?"
+            rows="4"
+            required=""
+          ></textarea>
+        </div>
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+          type="submit"
+        >
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="w-full bg-gray-900 py-6 text-center text-gray-400">
+  <div class="container mx-auto px-4 md:px-6">
+    <p>© 2024 My Portfolio. All rights reserved.</p>
+  </div>
+</footer>
